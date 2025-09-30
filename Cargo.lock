@@ -4356,9 +4356,8 @@ dependencies = [
 
 [[package]]
 name = "mshv-bindings"
-version = "0.6.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "805cf329582f770f62cc612716a04c14815276ae266b6298375a672d3c5a5184"
+version = "0.6.2"
+source = "git+https://github.com/praveen-pk/mshv.git?branch=debug%2Fovm%2Ftriple_fault_v2#cdf0bd451f5c1b3bc872713b17fa68ca754cc545"
 dependencies = [
  "libc",
  "num_enum",
@@ -4370,9 +4369,8 @@ dependencies = [
 
 [[package]]
 name = "mshv-ioctls"
-version = "0.6.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "aefaab4c067cf5226a917227640d835327b25b71a8d465f815f74f490344e10a"
+version = "0.6.2"
+source = "git+https://github.com/praveen-pk/mshv.git?branch=debug%2Fovm%2Ftriple_fault_v2#cdf0bd451f5c1b3bc872713b17fa68ca754cc545"
 dependencies = [
  "libc",
  "mshv-bindings",
@@ -9177,9 +9175,9 @@ dependencies = [
 
 [[package]]
 name = "vmm-sys-util"
-version = "0.15.0"
+version = "0.12.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "506c62fdf617a5176827c2f9afbcf1be155b03a9b4bf9617a60dbc07e3a1642f"
+checksum = "1d1435039746e20da4f8d507a72ee1b916f7b4b05af7a91c093d2c6561934ede"
 dependencies = [
  "bitflags 1.3.2",
  "libc",
