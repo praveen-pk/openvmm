@@ -1228,7 +1228,7 @@ fn vm_config_from_command_line(
                 }
                 .into_resource(),
                 hyperv_ic_resources::kvp::KvpIcHandle { recv: kvp_recv }.into_resource(),
-                hyperv_ic_resources::timesync::TimesyncIcHandle.into_resource(),
+                //hyperv_ic_resources::timesync::TimesyncIcHandle.into_resource(),
             ]
             .map(|r| (DeviceVtl::Vtl0, r)),
         );
